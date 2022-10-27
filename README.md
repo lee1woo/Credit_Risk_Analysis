@@ -35,6 +35,27 @@ Balanced accuracy score was 66.20%
 The precision score reversed for low-risk and high-risk. 
 The recall score decreased for low-risk class. 
 
+- Combination (Over and Under)
+
+![photo4](https://user-images.githubusercontent.com/102992388/198416333-1d9a4c2e-bcfc-4bbd-86e8-f170341122e3.png)
+
+The balanced accuracy score decreased to 54.47%. The recall score increased for both classes.
+
+- Balanced Random Forest Classifier
+
+![photo5](https://user-images.githubusercontent.com/102992388/198416497-514842c6-9b78-443d-878f-29ae257e771b.png)
+
+Balanced accuracy score was 76.77%
+High risk prediction score is now 3% while low-risk is 100%
+The recall score was 66% for high-risk and 87% for low risk
+
+- Easy Ensemble AdaBoost Classifier
+
+![photo6](https://user-images.githubusercontent.com/102992388/198416643-db4ceb64-d556-4357-b51b-b4cf9594048a.png)
+
+Balanced accuracy score was highest at 93.17%
+High-risk prediction score was 9% while low-risk was 100%. Recall score was 92% for high-risk and 94% for low-risk
+
 ### 
 
 ## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
