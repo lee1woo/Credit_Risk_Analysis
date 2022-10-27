@@ -14,11 +14,26 @@ The purpose of this analysis was to employ different machine learning algorithm 
 - Random Oversampling
 ![photo1](https://user-images.githubusercontent.com/102992388/198415255-ff4b063d-35ef-4767-a536-21c6a6e90ca7.png)
 
-The balanced accuracy was 65.72%.
+The balanced accuracy score was 65.72%.
 As you can see, the precision score is low for high-risk class with just 1%. In comparison, it is high for the low-risk class (100%). 
 The recall score  is similar to one another.
 
+- SMOTE Oversampling
 
+![photo2](https://user-images.githubusercontent.com/102992388/198415611-95ad155f-3975-4305-a671-80b7fab0c0bf.png)
+
+The balanced accuracy score was 66.20%
+The precision score for high-risk class was again low at 1%. The precision score for low-risk class again was 100%.
+
+The recall score was again similar to one another. However, compared to the first oversampling, the low-risk class's recall score increased while it decreased for the high-risk class.
+
+- Undersampling
+
+![photo3](https://user-images.githubusercontent.com/102992388/198415930-9c9a1366-76ae-4c25-98e0-713b8a6bac8c.png)
+
+Balanced accuracy score was 66.20%
+The precision score reversed for low-risk and high-risk. 
+The recall score decreased for low-risk class. 
 
 ### 
 
