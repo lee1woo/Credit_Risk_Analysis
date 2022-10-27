@@ -7,7 +7,7 @@
 The purpose of this analysis was to employ different machine learning algorithm techniques to train and evaluate models with unbalanced classes to determine which sampling method and model should be used to predict credit risk. We are using the models to compare with LendingClub, a peer-to-peer lending services company. We used six models - RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier and EasyEnsembleClassifier.
 
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results:
 
 ### Evaluation 
 
@@ -46,7 +46,7 @@ The balanced accuracy score decreased to 54.47%. The recall score increased for 
 ![photo5](https://user-images.githubusercontent.com/102992388/198416497-514842c6-9b78-443d-878f-29ae257e771b.png)
 
 Balanced accuracy score was 76.77%
-High risk prediction score is now 3% while low-risk is 100%
+High risk precision score is now 3% while low-risk is 100%
 The recall score was 66% for high-risk and 87% for low risk
 
 - Easy Ensemble AdaBoost Classifier
@@ -54,10 +54,12 @@ The recall score was 66% for high-risk and 87% for low risk
 ![photo6](https://user-images.githubusercontent.com/102992388/198416643-db4ceb64-d556-4357-b51b-b4cf9594048a.png)
 
 Balanced accuracy score was highest at 93.17%
-High-risk prediction score was 9% while low-risk was 100%. Recall score was 92% for high-risk and 94% for low-risk
+High-risk precision score was 9% while low-risk was 100%. Recall score was 92% for high-risk and 94% for low-risk
 
-### 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary: 
 
-### 
+### Recommendation
+
+This analysis' purpose was to build and test machine learning models and algorithms that would be able to identify high credit lending risk individuals. After analyzing all of the algorithms, it is very clear that the Easy Ensemble Adaboost model is the one to use. It has the highest balanced accuracy score at 93.17% and very high comparative precision scores. 
+
